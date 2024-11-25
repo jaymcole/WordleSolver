@@ -1,0 +1,17 @@
+﻿<Page x:Class="WordleSolverApp.GuessPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WordleSolverApp"
+      mc:Ignorable="d"
+      Title="GuessPanel"
+      Background="AliceBlue" Width="109" Height="155">
+
+    <Grid>
+        <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="RadioButton" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton2" Content="RadioButton" HorizontalAlignment="Center" Margin="0,89,0,0" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="89" Height="74"/>
+    </Grid>
+</Page>

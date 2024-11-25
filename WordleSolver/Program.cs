@@ -35,3 +35,33 @@ while (true)
         }
     }
 }
+
+
+
+//driver.LoadWordsFromList();
+//await driver.GetWordScores();
+
+//TrendsService trends = new TrendsService();
+//decimal wordScore= trends.GetWordTrendScore("Something").Result;
+
+
+/*
+Console.WriteLine("Done constructing word tree");
+
+HashSet<char>[] ignoreLists = {
+//  new HashSet<char>("ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray()),
+    new HashSet<char>("ABCDE__HIJKLMNOPQRSTUV_XYZ".ToLower().ToCharArray()),
+    new HashSet<char>("_BCDEFGHIJKLMN_PQRSTUVWXYZ".ToLower().ToCharArray()),
+    new HashSet<char>("ABCDEFGHIJKL_NOPQRST_VWXYZ".ToLower().ToCharArray()),
+    new HashSet<char>("ABCD_FGHIJKLM_OPQRSTUVWXYZ".ToLower().ToCharArray()),
+    new HashSet<char>("ABC_EFGHIJKLMNOPQ_STUVWXYZ".ToLower().ToCharArray()),
+} ;
+
+List<string> possible = new List<string>();
+root.FindWords(possible, "*****", ignoreLists, 0, "");
+*/
+
+
+
+
+
